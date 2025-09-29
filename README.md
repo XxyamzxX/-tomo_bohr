@@ -39,9 +39,7 @@ pip install -e .
 -tomo_bohr/
 │── pyproject.toml
 │── README.md
-│── src/
 │   └── bohrmodel/
-│       ├── __init__.py
 │       ├── energia.py
 │       ├── radios.py
 │       ├── transiciones.py
