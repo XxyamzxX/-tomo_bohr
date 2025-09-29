@@ -21,5 +21,5 @@ def energia_n(n: int, Z: int = 1) -> float:
     """
     if n < 1:
         raise ValueError("El número cuántico principal n debe ser >= 1")
-    energia = -13.6 * (Z * 2) / (n * 2)  # eV
+    energia = -13.6 * (Z ** 2) / (n * 2)  # eV
     return energia
