@@ -65,16 +65,16 @@ lo que permite obtener la **frecuencia** (\( f = \Delta E / h \)) y la **longitu
 ## ⚙️ Estructura del Proyecto  
 
 
--tomo_bohr/
-│── pyproject.toml
-│── README.md
-│── src/
-│ └── bohrmodel/
-│ ├── energia.py # Cálculo de niveles de energía
-│ ├── radios.py # Cálculo de radios orbitales
-│ ├── transiciones.py # Cálculo de transiciones electrónicas
-│ ├── graficos.py # Visualizaciones de niveles y órbitas
-│ └── atom.py # Menú interactivo (main)
+tomo_bohr/
+├── pyproject.toml
+├── README.md
+└── src/
+└── bohrmodel/
+├── energia.py # Cálculo de niveles de energía
+├── radios.py # Cálculo de radios orbitales
+├── transiciones.py # Cálculo de transiciones electrónicas
+├── graficos.py # Visualizaciones de niveles y órbitas
+└── atom.py # Menú interactivo (main)
 ---
 
 ## 🖥️ Instalación  
